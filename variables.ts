@@ -7,3 +7,6 @@ userid.toFixed()
 
 // boolean
 let isloogedin: boolean = false
+
+
+export{}
