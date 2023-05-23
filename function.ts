@@ -12,3 +12,9 @@ function getUpper(val1 : string ){
 let signUpUser = (name : string , email: string, isPaid: boolean = false ) => {} // if we want to give some parameters then we put some as default
 
 signUpUser("j", "hg@.com")
+
+function add(num : number) :number { // use extra : number to addd strict type
+    return num +2
+}
+
+add(5)
