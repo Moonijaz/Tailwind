@@ -18,3 +18,19 @@ function add(num : number) :number { // use extra : number to addd strict type
 }
 
 add(5)
+
+// conditional check where we have to add multiple types
+function getVal (myVal : number) : string {
+    if (myVal > 5) {
+        return true
+    }
+    return "ok"
+}
+ 
+// arrow function
+
+const getHello = (s, string) : string => {
+    return "" // for an arrow function sothing must be passed in return
+}
+
+export {}
