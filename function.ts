@@ -33,4 +33,10 @@ const getHello = (s, string) : string => {
     return "" // for an arrow function sothing must be passed in return
 }
 
+// using list and map 
+//const list = [23 , 22, 56] 
+const list = ["jack", "bonn"]
+list.map(list => {  //here the map function automatically convert it to string when a sring is entered and automatically convert to number when a number is entered
+    return list
+})
 export {}
